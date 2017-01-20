@@ -1,0 +1,12 @@
+# Création des 3 serveurs qui va héberger nos clusters
+###################################################################
+./scripts/create-servers
+
+
+# Initialisation du cluster Swarm
+######################################################################""
+./scripts/initialize-swarm
+
+# Création du réseau
+######################################################################""
+./scripts/create-network
