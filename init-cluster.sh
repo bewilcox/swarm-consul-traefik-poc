@@ -1,12 +1,17 @@
+#!/bin/bash
+
 # Création des 3 serveurs qui va héberger nos clusters
 ###################################################################
-./scripts/create-servers
-
+bash ./scripts/create-servers.sh
 
 # Initialisation du cluster Swarm
 ######################################################################""
-./scripts/initialize-swarm
+bash ./scripts/initialize-swarm.sh
 
 # Création du réseau
 ######################################################################""
-./scripts/create-network
+bash ./scripts/create-network.sh
+
+# Ajout de l'ihm de visualisation du cluster Swarm
+######################################################################""
+bash ./scripts/add-visualizer.sh

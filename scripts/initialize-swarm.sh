@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Initialisation du cluster Swarm
 ######################################################################
 ip_leader1=$(docker-machine ip leader1)

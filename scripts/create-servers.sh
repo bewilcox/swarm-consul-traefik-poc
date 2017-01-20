@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Création des 3 serveurs qui va héberger nos clusters
 ###################################################################
 docker-machine create \
